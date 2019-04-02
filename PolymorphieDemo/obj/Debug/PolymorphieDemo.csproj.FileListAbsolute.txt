@@ -1,0 +1,7 @@
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\bin\Debug\PolymorphieDemo.exe.config
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\bin\Debug\PolymorphieDemo.exe
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\bin\Debug\PolymorphieDemo.pdb
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\obj\Debug\PolymorphieDemo.csprojAssemblyReference.cache
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\obj\Debug\PolymorphieDemo.csproj.CoreCompileInputs.cache
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\obj\Debug\PolymorphieDemo.exe
+C:\Users\lauha\Source\Repos\DotNetSchulung\PolymorphieDemo\obj\Debug\PolymorphieDemo.pdb

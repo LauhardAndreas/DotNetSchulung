@@ -13,8 +13,8 @@ namespace Logger
             try
             {
                 var logger = new LoggingService();
-                var date = DateTime.Now.ToString("MM/dd/yyyy");
-                logger.logIt("test"+date);
+                var date = DateTime.Now.ToString();
+                logger.logIt("test-"+date);
             }
             catch (UnauthorizedAccessException e)
             {

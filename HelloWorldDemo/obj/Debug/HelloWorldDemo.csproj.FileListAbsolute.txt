@@ -1,0 +1,7 @@
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe.config
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.pdb
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.csprojAssemblyReference.cache
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.csproj.CoreCompileInputs.cache
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.exe
+C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.pdb

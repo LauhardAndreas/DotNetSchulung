@@ -25,7 +25,7 @@ namespace TestLogger
                 File.Delete(path);
           
             var logger = new LoggingService();
-            var date = DateTime.Now.ToString("MM/dd/yyyy");
+            var date = DateTime.Now.ToString();
             logger.logIt("AppendMessageFromTestLogger-"+ date);
 
             using (var sr = new StreamReader(path))
