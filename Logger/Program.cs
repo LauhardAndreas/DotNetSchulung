@@ -14,7 +14,7 @@ namespace Logger
             {
                 var logger = new LoggingService();
                 var date = DateTime.Now.ToString("MM/dd/yyyy");
-                logger.logIt("test"+date);
+                logger.logIt("test-"+date);
             }
             catch (UnauthorizedAccessException e)
             {
