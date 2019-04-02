@@ -33,9 +33,9 @@ namespace HelloWorldDemo
 
                 Console.WriteLine(ioure.Message);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-               throw new DemoException();
+               var exp = new DemoException(e.Message);
             }
         }
     }
