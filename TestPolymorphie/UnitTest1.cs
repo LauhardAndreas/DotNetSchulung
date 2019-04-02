@@ -14,6 +14,7 @@ namespace TestPolymorphie
             var mock = new ShowPolymorphie();
             Assert.IsNotNull(mock);
         }
+        [TestMethod]
         public void testSum()
         {
             var mock = new ShowPolymorphie();
