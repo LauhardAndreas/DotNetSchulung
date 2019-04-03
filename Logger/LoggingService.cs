@@ -11,10 +11,10 @@ namespace Logger
     public class LoggingService
     {
         private int logCount = 0;
-        string filePath = "";
+        public string filePath = "";
         public List<KeyValuePair<int, string>> list = null;
 
-        public LoggingService()
+        public void init()
         {
             list = new List<KeyValuePair<int, string>>();
             var path = (string)Environment.GetEnvironmentVariables()["APPDATA"];
@@ -27,10 +27,6 @@ namespace Logger
             filePath = Path.Combine(folderPath, fileName);
         }
 
-        /// <summary>
-        /// Es soll eine Messages in de Datei log.txt geschrieben werden
-        /// </summary>
-        /// <param name="message"></param>
         public void Push()
         {
             foreach (var log in list)
@@ -44,12 +40,14 @@ namespace Logger
             ClearLog();
         }
      
-        public void LogLine(string message)
+        public string LogLine(string message)
         {
-           var timeStamp = DateTime.Now;
-           message = message + ":" + timeStamp;
-           list.Add(new KeyValuePair<int, string>(logCount, message));
-           logCount++;
+            var timeStamp = DateTime.Now;
+            message =  timeStamp + ": " + message;
+            logCount++;
+            list.Add(new KeyValuePair<int, string>(logCount, message));
+
+            return (logCount + " " + message);
         }
 
         public void Delete_Log_At_Line(int logLine)

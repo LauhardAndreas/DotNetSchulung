@@ -5,3 +5,10 @@ C:\Users\alauhard\source\repos\HelloWorldDemo\Logger\obj\Debug\Logger.csproj.Cor
 C:\Users\alauhard\source\repos\HelloWorldDemo\Logger\obj\Debug\Logger.exe
 C:\Users\alauhard\source\repos\HelloWorldDemo\Logger\obj\Debug\Logger.pdb
 C:\Users\alauhard\source\repos\HelloWorldDemo\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\bin\Debug\Logger.exe.config
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\bin\Debug\Logger.exe
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\bin\Debug\Logger.pdb
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\obj\Debug\Logger.exe
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\obj\Debug\Logger.pdb
+C:\Users\alauhard\source\repos\DotNetSchulung\Logger\obj\Debug\Logger.csprojAssemblyReference.cache

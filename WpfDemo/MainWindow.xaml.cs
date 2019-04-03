@@ -16,6 +16,7 @@ namespace WpfDemo
         {
             InitializeComponent();
             ls = new LS();
+            ls.init();
 
         }
 
@@ -36,8 +37,8 @@ namespace WpfDemo
                     {
                         case "Log":
                             //var c = (string)btn.Content;          
-                            ls.LogLine("test");
-               
+                            
+                            lv.Items.Add(ls.LogLine("test"));
                             break;
                         case "Delete_Log":
                             break;
@@ -58,22 +59,26 @@ namespace WpfDemo
         private void Delete_At_Pos_Click(object sender, RoutedEventArgs e)
         {
             ls.Delete_Log_At_Line(1);
+            lv.Items.RemoveAt(1);
         }
 
         private void Push_Click(object sender, RoutedEventArgs e)
         {
             ls.Push();
+            lv.Items.Clear();
         }
 
         private void Delete_Temp_Log_Click(object sender, RoutedEventArgs e)
         {
             ls.ClearLog();
+            lv.Items.Clear();
         }
 
         private void Delete_Log_File_Click(object sender, RoutedEventArgs e)
         {
             //todo
             ls.Delete_LogFile();
+            lv.Items.Clear();
         }
     }
 }

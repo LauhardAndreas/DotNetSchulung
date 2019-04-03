@@ -8,7 +8,6 @@ C:\Users\lauha\source\repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDe
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe.config
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.exe
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\bin\Debug\HelloWorldDemo.pdb
-C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.csprojAssemblyReference.cache
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.csproj.CoreCompileInputs.cache
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.exe
 C:\Users\alauhard\Source\Repos\DotNetSchulung\HelloWorldDemo\obj\Debug\HelloWorldDemo.pdb

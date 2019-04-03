@@ -10,15 +10,23 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <Button Content="Log" Width="100" Height="75" Name="Log" Click="Log_Click" Tag="Log"/>
-            <Button Content="Delete temp Log" Width="121" Height="75" Name="Delete_Temp_Log" Click="Delete_Temp_Log_Click" Tag="Delete_Temp_Log" Margin="0,132"/>
-            <Button Content="Delete temp Log #1" Width="137" Height="75" Name="Delete_At_Pos" Click="Delete_At_Pos_Click"  Tag="Delete_At_Pos" Margin="0,132"/>
+            <Button Content="Delete temp Log" Width="121" Height="75" Name="Delete_Temp_Log" Click="Delete_Temp_Log_Click" Tag="Delete_Temp_Log"/>
+            <Button Content="Delete temp Log #1" Width="137" Height="75" Name="Delete_At_Pos" Click="Delete_At_Pos_Click"  Tag="Delete_At_Pos"/>
             <Button Content="Push" Width="100" Height="75" Name="Push" Click="Push_Click" Tag="Push"/>
             <Button Content="Delete Log File" Width="100" Height="75" Name="Delete_Log_File" Click="Delete_Log_File_Click" Tag="Delete_Log_File"/>
         </StackPanel>
+        <ListView HorizontalAlignment="Left" Name="lv" Height="134"  Grid.Row="2" VerticalAlignment="Top" Width="772">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
 
     </Grid>
 </Window>
